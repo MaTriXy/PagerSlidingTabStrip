@@ -1,5 +1,29 @@
 Change Log
 ==========
+
+Version 1.1.0 *(01-06-215)*
+---------------------------------
+* Bug fixes
+* Rename some custom attributes.
+* Default ripple effect selector in 21+
+* Default sans-serif-medium tab's text in API 21+
+* app:pstsTextFontFamily for overriding the typeface from the XML. The attribute works exactly like android:fontFamily for TextViews.
+* Remove custom attire `pstsTextColorSelected ` and `pstsTextSelectedStyle`.
+* `pstsTabTextColor` will handle the tab text color states.
+* `pstsTabTextSize` will handle the tab text size.
+* Callbacks for selection/deselection of tabs passing the tab view as parameter when custom tabs are use.
+
+Version 1.0.9 *(22-02-2015)*
+---------------------------------
+* Bug fixes
+* Add parsing of independent padding attributes (#69)
+* pstsTextAlpha value range change from 0..1 to 0..255.
+* New attr pstsTextColorSelected
+* R.id.tab_title changed to R.id.psts_tab_title
+* R.layout.tab changed to R.layout.psts_tab
+* R.drawable.background_tab changed to R.drawable.psts_background_tab
+
+
 Version 1.0.8 *(14-01-2015)*
 ----------------------------
 * Bug fixes
